@@ -1,26 +1,19 @@
 = grem
 
-* http://github.com/#{github_username}/#{project_name}
+* http://github.com/benatkin/grem
 
 == DESCRIPTION:
 
-FIX (describe your package)
-
-== FEATURES/PROBLEMS:
-
-* FIX (list of features or problems)
+The (GitHub) REpo Manager grabs repos and stores them according to
+my conventions.
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
-
-== REQUIREMENTS:
-
-* FIX (list of requirements)
+  grem benatkin grem - clones this repo into ~/github/benatkin/grem
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+* Once this is on Gemcutter, sudo gem install grem
 
 == LICENSE:
 
