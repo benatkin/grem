@@ -9,7 +9,9 @@ my conventions.
 
 == SYNOPSIS:
 
-  grem benatkin grem - clones this repo into ~/github/benatkin/grem
+  grem benatkin grem
+
+clones this repo into ~/github/benatkin/grem
 
 == INSTALL:
 
