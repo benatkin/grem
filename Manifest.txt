@@ -1,11 +1,14 @@
 History.txt
 Manifest.txt
 PostInstall.txt
-README.rdoc
-Rakefile
+bin/grem
+lib/grem/cli.rb
 lib/grem.rb
+Rakefile
+README.rdoc
 script/console
 script/destroy
 script/generate
 test/test_grem.rb
+test/test_grem_cli.rb
 test/test_helper.rb
