@@ -11,11 +11,10 @@ Hoe.plugin :newgem
 # Generate all the Rake tasks
 # Run 'rake -T' to see list of generated tasks (from gem root directory)
 $hoe = Hoe.spec 'grem' do
-  self.developer 'FIXME full name', 'FIXME email'
+  self.developer 'Ben Atkin', 'ben@benatkin.com'
   self.post_install_message = 'PostInstall.txt' # TODO remove if post-install message not required
   self.rubyforge_name       = self.name # TODO this is default value
   # self.extra_deps         = [['activesupport','>= 2.0.2']]
-
 end
 
 require 'newgem/tasks'

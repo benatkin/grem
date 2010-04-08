@@ -13,6 +13,6 @@ class TestGremCli < Test::Unit::TestCase
   
   def test_repo_cloned
     readme_path = File.join(@example_path, 'README')
-    assert_match(/You have reached this example repo/, readme_path)
+    assert_match(/You have reached this example repo/, File.read(readme_path))
   end
 end
