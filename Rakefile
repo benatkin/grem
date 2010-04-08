@@ -14,7 +14,7 @@ $hoe = Hoe.spec 'grem' do
   self.developer 'Ben Atkin', 'ben@benatkin.com'
   self.post_install_message = 'PostInstall.txt' # TODO remove if post-install message not required
   self.rubyforge_name       = self.name # TODO this is default value
-  # self.extra_deps         = [['activesupport','>= 2.0.2']]
+  self.extra_deps           = [['launchy','>= 0.3.5']]
 end
 
 require 'newgem/tasks'
