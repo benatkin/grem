@@ -1,6 +1,7 @@
 require 'optparse'
 require 'launchy'
 require 'pathname'
+require 'fileutils'
 
 module Grem
   class CLI
@@ -46,7 +47,6 @@ module Grem
       username = arguments[0]
       reponame = arguments[1]
 
-      #FileUtils.mkdir_p
       user_path = File.join(File.expand_path('~/github'), username)
       repo_path = File.join(user_path, reponame)
       if File.exist?(repo_path)
